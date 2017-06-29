@@ -40,7 +40,7 @@ app.post('/api/shorturl/new/', (req, res) => {
     let shortId = randomstring.generate(6);//generates 6 digit id for short url.
 
     if (findUrl === true) {
-      let postedUrl = new shortUrl({//user url
+      let postedUrl = new shortUrl({//user url db structure
         original_url: userUrl,
         short_url: shortId
       });

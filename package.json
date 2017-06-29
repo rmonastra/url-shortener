@@ -1,0 +1,32 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "FCC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dns": "^0.2.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "git": "^0.1.5",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.11.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmonastra/urlshortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmonastra/urlshortener/issues"
+  },
+  "homepage": "https://github.com/rmonastra/urlshortener#readme"
+}
